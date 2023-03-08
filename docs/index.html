@@ -4,12 +4,96 @@
     <title>Dante</title>
     <meta charset="utf8">
     <meta name="Dante" content="link-in-bio">
+
+    <style>
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #faeee7;
+        display: flex;
+        justify-content: center;
+      }
+
+      .banner-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 200px;
+        border-color:black;
+        border-width: 20px;
+        border-top: 20px;
+        border-right: 20px;
+        border-style: solid;
+      }
+      .thumbnail {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 80px;
+        object-fit: fill;
+        display: flex;
+        justify-content: left;
+      }
+
+      .name {
+        color: #33272a;
+      }
+
+      .social-icons a {
+        color: #ff8ba7;
+        text-decoration: none;
+      }
+
+      .link {
+        background-color: #ffc6c7;
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5px;
+        margin-top:10px;
+        margin-bottom: 10px;
+      }
+
+      .link a {
+        color: #594a4e;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+
+      .name {
+        color: #33272a;
+        display: flex;
+        justify-content: center;
+        font-size: larger;
+      }
+
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
+
+      .social-icons {
+        display: flex;
+        justify-content: space-around;
+      }
+    </style>
   </head>
 
   <body>
 
+    <div class="items">
+
     <div class="banner">
-      <img src="AI profile.png" alt="Dante AI">
+      <img src="AI profile.png" alt="Dante AI" class="banner-image">
     </div>
 
     <div class="name">
@@ -36,24 +120,26 @@
 
     <div class="link">
       <img
-      src="https://s-lol-web.op.gg/images/reverse.rectangle.png" height="100px">
+      src="https://s-lol-web.op.gg/images/reverse.rectangle.png" class="thumbnail">
 
-      <a target="_blank" href="https://www.op.gg/summoners/na/bush%20catsu">
-        OP.GG 
-    </div>
+      <a target ="_blank" href="https://www.op.gg/summoners/na/bush%20catsu">
+        OP.GG
+    </a>
+  </div>
 
     <div class="link">
       <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRX_XBuoPjYMd9fNGYbYBtGd9piu2P-eXhNb89ysXdEQ&s" width="100px">
+      src="/discord.png" class="thumbnail">
 
       <a target="_blank" href="https://discord.gg/nAYEnKEwnM">
-        DISCORD SERVER 🥱
+      DISCORD SERVER
       </a>
     </div>
+    
 
     <div class="link">
       <img
-      src="https://cdn.24.co.za/files/Cms/General/d/3773/2b17ff1846f34f629db4e7d0174d4652.jpg" height="100px">
+      src="https://cdn.24.co.za/files/Cms/General/d/3773/2b17ff1846f34f629db4e7d0174d4652.jpg" class="thumbnail">
 
       <a target="_blank" href="https://rabbit.org/2013/02/living-with-a-house-rabbit-2/">
         Living with a House Rabbit
@@ -62,20 +148,22 @@
 
     <div class="link">
       <img
-      src="https://img1.wsimg.com/isteam/ip/1542958b-182b-4d3e-9ecf-d02ced3581c0/CuddleBunny-REVcommunity-0001.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:671,cg:true" height="100px">
+      src="https://img1.wsimg.com/isteam/ip/1542958b-182b-4d3e-9ecf-d02ced3581c0/CuddleBunny-REVcommunity-0001.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:671,cg:true" class="thumbnail">
 
       <a target="_blank" href="https://cuddlebunnyccc.com/">
         Cuddle Bunny
       </a>
+      </div>
 
       <div class="link">
         <img
-        src="https://www.cbc.ca/kids/images/weird_wonderful_bunnies_header_update_1140.jpg" height="100px">
+        src="/furby.jpg" class="thumbnail">
 
         <a target="_blank" href="https://docs.google.com/presentation/d/1HlcP5Rl3151REqlxn3NoMI4687mOmcaqPC2K8v-RAg8/edit?usp=sharing">
           BUNNY PICTURES 🐰
         </a>
       </div>
-    </div>
+
+      </div>
   </body>
 </html>
