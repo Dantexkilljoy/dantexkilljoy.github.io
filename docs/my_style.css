@@ -30,6 +30,7 @@ body {
 
 .name {
   color: #33272a;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .social-icons a {
@@ -51,6 +52,7 @@ body {
 
 .link a {
   color: #594a4e;
+
   text-decoration: none;
   text-align: center;
   flex-grow: 1;
@@ -68,7 +70,8 @@ body {
   color: #33272a;
   display: flex;
   justify-content: center;
-  font-size: larger;
+  font-family: Vollkorn;
+  font-size: 100px;
 }
 
 .banner {
