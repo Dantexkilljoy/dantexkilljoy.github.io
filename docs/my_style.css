@@ -38,7 +38,7 @@ body {
 }
 
 .social-icons a {
-  color: #ff8ba7;
+  color: #ed7994;
   text-decoration: none;
 }
 
@@ -72,7 +72,10 @@ body {
 }
 
 .name {
-  color: #000000;
+  color: #58A7AF;
+  text-transform: capitalize;
+  text-shadow: 2px 2px #000000;
+  text-shadow: 15px;
   display: flex;
   justify-content: center;
   font-family: 'Vollkorn',Serif;
@@ -87,4 +90,7 @@ body {
 .social-icons {
   display: flex;
   justify-content: space-around;
+}
+.social-icons svg {
+  color: #58A7AF;
 }
