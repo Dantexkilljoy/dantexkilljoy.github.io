@@ -1,3 +1,4 @@
+
 body {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -43,7 +44,8 @@ body {
 }
 
 .link {
-  background-color: #ffc6c7;
+  background: linear-gradient(90deg,transparent,purple,transparent);
+  transition: 0.5s;
   display:flex;
   align-items: center;
   justify-content: space-evenly;
@@ -61,6 +63,10 @@ body {
   flex-grow: 1;
   font-family: 'Raleway', Sans-Serif;
   font-size: 20px;
+}
+
+.link:hover {
+  background-color: #ffc6c7;
 }
 
 .items {
@@ -91,6 +97,12 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
 .social-icons svg {
   color: #58A7AF;
+}
+
+
+.social-icons svg:hover {
+  color: #000000;
 }
